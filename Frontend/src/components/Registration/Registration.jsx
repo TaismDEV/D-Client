@@ -2,7 +2,7 @@ import React from "react";
 
 const Registration = ({ props }) => {
   return (
-    <div> </div>
+    <div>jhbjh </div>
     
   )
 }
