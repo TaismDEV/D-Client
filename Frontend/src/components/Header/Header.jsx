@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Link, Routes} from "react-router-dom";
-import { Home, Registration } from "../index";
+import { Home, Registration } from "../../pages/index";
 
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
@@ -338,16 +338,8 @@ const Main = () => {
         </Popover.Panel>
       </Transition>
     </Popover>
-
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path="/registration" element={<Registration/>} />
-      </Routes>
     </div>
   );
 };
 
 export default Main;
-
-{/* <Link to='/'>Home</Link>
-<Link to ='/registration'>Registration</Link> */}
