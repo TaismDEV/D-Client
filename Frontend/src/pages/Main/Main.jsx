@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { Header, Footer } from '../../components';
-import { Home, Registration } from "../";
+import { Home, Registration, Login } from "../";
 // import styles from "./style.module.css";
 
 const Main = () => {
@@ -11,7 +11,8 @@ const Main = () => {
         <Header/>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path="/registration" element={<Registration/>} />
+          <Route path="/ingconstructie-registration" element={<Registration/>} />
+          <Route path="/login" element={<Login/>} />
         </Routes>
       </div>
     <div className="footer">
