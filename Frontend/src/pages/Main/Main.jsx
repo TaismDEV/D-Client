@@ -2,7 +2,6 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { Header, Footer } from '../../components';
 import { Home, Registration, Login } from "../";
-// import styles from "./style.module.css";
 
 const Main = () => {
   return (
