@@ -1,8 +1,18 @@
-import { React, useState } from 'react';
+import { React, useState, useEffect } from 'react';
 import styles from './style.module.css';
 
 const Carousel = ({slides}) => {
+
   const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent(current === slides.length - 1 ? 0 : current + 1);
+      console.log(current);
+    }, 7000);
+    return () => clearInterval(interval);
+  }, [current, slides.length]);
+
 
   const goToNext = () => {
     setCurrent(current === slides.length - 1 ? 0 : current + 1);
