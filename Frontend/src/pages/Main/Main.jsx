@@ -1,13 +1,13 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { Header, Footer } from '../../components';
+import { Navbar, Footer } from '../../components';
 import { Home, Registration, Login } from "../";
 
 const Main = () => {
   return (
     <>
       <div className="main">
-        <Header/>
+        <Navbar/>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path="/ingconstructie-registration" element={<Registration/>} />

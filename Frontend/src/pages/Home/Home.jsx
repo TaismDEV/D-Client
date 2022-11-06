@@ -17,7 +17,7 @@ const slides =[
   {
     id: 3,
     title: 'Slide 3',
-    src: 'http://localhost:3000/5.jpg',
+    src: 'http://localhost:3000/6.jpg',
   },
 ]
 

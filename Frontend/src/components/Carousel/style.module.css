@@ -12,7 +12,7 @@
 }
 
 .rightArrow {
-  opacity: 50%;
+  /* opacity: 50%; */
   position: absolute;
   top: 50%;
   right: 32px;
@@ -20,18 +20,18 @@
   z-index: 1;
   cursor: pointer;
   font-size: 45px;
-  color: rgb(255, 212, 172);
+  color: white;
 }
 
 .leftArrow {
-  opacity: 50%;
+  /* opacity: 50%; */
   position: absolute;
   top: 50%;
   left: 32px;
   transform: translateY(-50%);
   z-index: 1;
   cursor: pointer;
-  color: rgb(255, 212, 172);
+  color: rgb(255, 255, 255);
   font-size: 45px;
 }
 
