@@ -1,5 +1,5 @@
 import React from "react";
-import { OurServices, Carousel } from "../../components";
+import { OurServices, Carousel, About } from "../../components";
 // import { useSelector, useDispatch } from "react-redux";
 import styles from './style.module.css'
 
@@ -28,6 +28,7 @@ const Home = () => {
       <div className={styles.carouselDiv}>
         <Carousel slides={slides} />
       </div>
+      <About />
       <OurServices />
       </>
   );
