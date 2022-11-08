@@ -1,6 +1,7 @@
 .img {
   width: 100%;
   height: 100%;
+  border: 2px solid rgb(21, 21, 132);
   border-radius: 10px;
   background-position: center;
   background-size: cover;

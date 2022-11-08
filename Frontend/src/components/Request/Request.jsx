@@ -1,7 +1,16 @@
 import React from 'react';
+import { useDispatch } from "react-redux";
+import { Modal } from '../../store/actions'
 import "./style.css";
 
 const Request = () => {
+
+  const dispatch = useDispatch();
+
+  const handModal = () => {
+    dispatch(Modal());
+  }
+
   return (
     <div className='flex justify-center h-full bg-black bg-opacity-75 fixed w-full z-40 absolute modal'>
     <div className="hidden sm:block" aria-hidden="true">
@@ -77,7 +86,7 @@ const Request = () => {
               </div>
               <div className="flex justify-between bg-gray-50 px-4 py-3 text-right sm:px-6">
                 <button
-                  type="button"
+                  onClick={() => handModal()}
                   className="inline-flex justify-center rounded-md border border-transparent bg-red-600 py-2 px-4 text-sm font-medium text-white shadow-sm">
                   Sluiten
                 </button>

@@ -1,7 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useDispatch } from "react-redux";
+import { Modal, Feedback } from '../../store/actions'
 
 const About = () => {
+
+  const dispatch = useDispatch();
+  const handModal = () => {
+    dispatch(Modal());
+  };
+
+  const handFeedback = () => {
+    dispatch(Feedback());
+  };
+
   return (
     <div className="relative overflow-hidden bg-white">
       <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
@@ -11,7 +23,7 @@ const About = () => {
             Wij zijn <span className='text-indigo-900'>ING CONSTRUCTION</span>
             </h1>
             <p className="mt-4 text-xl text-gray-500">
-            Wij doen al 10 jaar bouw en renovatiewerkzaamheden, hebben in die tijd kunnen bewijzen dat onze diensten een kwaliteitsgarantie hebben. <br /> Contacteer ons - <span onClick={() => console.log('Contacten')} className='text-indigo-600'>Contacten</span> <br /> Of doe een aanvraag en wij nemen contact met u op.
+            Wij doen al 10 jaar bouw en renovatiewerkzaamheden, hebben in die tijd kunnen bewijzen dat onze diensten een kwaliteitsgarantie hebben. <br /> Contacteer ons - <Link to="" onClick={() => handFeedback()} className='text-blue-600 text-2xl'>Contacten</Link> <br /> Of doe een aanvraag en wij nemen contact met u op.
             </p>
           </div>
           <div>
@@ -81,7 +93,7 @@ const About = () => {
                 </div>
               </div>
 
-              <Link to="/" className="inline-block rounded-md border border-transparent bg-indigo-600 py-3 px-8 text-center font-medium text-white hover:bg-indigo-700">
+              <Link onClick={() => handModal()} to="/" className="inline-block rounded-md border border-transparent bg-indigo-800 py-3 px-8 text-center font-medium text-white hover:bg-indigo-700">
                 Een verzoek doen
               </Link>
             </div>

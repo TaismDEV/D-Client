@@ -1,84 +1,16 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 import { OurServices, Carousel, About, BeforeAfter } from "../../components";
-// import { useSelector, useDispatch } from "react-redux";
 import styles from './style.module.css'
 
-const slides =[
-  {
-    id: 1,
-    title: 'Slide 1',
-    src: 'http://localhost:3000/3.jpg',
-  },
-  {
-    id: 2,
-    title: 'Slide 2',
-    src: 'http://localhost:3000/2.jpg',
-  },
-  {
-    id: 3,
-    title: 'Slide 3',
-    src: 'http://localhost:3000/6.jpg',
-  },
-]
-
-const contentBeforeAfter =[
-  [
-    {
-      id: 1,
-      title: 'Slide 1',
-      src: 'http://localhost:3000/3.jpg',
-    },
-    {
-      id: 2,
-      title: 'Slide 2',
-      src: 'http://localhost:3000/2.jpg',
-    },
-  ],
-  [
-    {
-      id: 1,
-      title: 'Slide 1',
-      src: 'http://localhost:3000/3.jpg',
-    },
-    {
-      id: 2,
-      title: 'Slide 2',
-      src: 'http://localhost:3000/2.jpg',
-    },
-  ],
-  [
-    {
-      id: 1,
-      title: 'Slide 1',
-      src: 'http://localhost:3000/3.jpg',
-    },
-    {
-      id: 2,
-      title: 'Slide 2',
-      src: 'http://localhost:3000/2.jpg',
-    },
-  ],
-  [
-    {
-      id: 1,
-      title: 'Slide 1',
-      src: 'http://localhost:3000/3.jpg',
-    },
-    {
-      id: 2,
-      title: 'Slide 2',
-      src: 'http://localhost:3000/2.jpg',
-    },
-  ],
-]
-
 const Home = () => {
-
+  
+  const contentBeforeAfter = useSelector(state => state.content.contentBeforeAfter);
+  
   return (
       <> 
       <div className={styles.carouselDiv}>
-        <Carousel slides={slides} />
+        <Carousel />
       </div>
 
       <About />
@@ -91,15 +23,15 @@ const Home = () => {
 
       <div className={styles.beforeAfterContent}>
         <div className={styles.BeforeAfter}>
-          {contentBeforeAfter.map((content, index) => (
-            <div className={styles.beforeAfter}>
+          {contentBeforeAfter.map((content) => (
+            <div key={content.id} className={styles.beforeAfterIMG}>
               <BeforeAfter content={content} />
             </div>
-          ))}
+          ))};
         </div>
       </div>
 
-      <p className="text-center py-5 text-3xl text-indigo-900"> <a href="#"> Druk om naar de top te gaan </a>  </p>
+      <p className="text-center py-10 text-3xl text-indigo-900"> <a href="#top"> Druk om naar de top te gaan </a>  </p>
 
       </>
   );

@@ -3,4 +3,6 @@ export const types = {
   EMPLOYEES: "EMPLOYEES",
   EMPLOYEE: "EMPLOYEE",
   ADD_ADMIN: 'ADD_ADMIN',
+  MODAL: 'MODAL',
+  FEEDBACK: 'FEEDBACK',
 }

@@ -5,5 +5,6 @@ import Carousel from './Carousel/Carousel';
 import Request from './Request/Request';
 import About from './About/About';
 import BeforeAfter from './BeforeAfter/BeforeAfter';
+import Feedback from './Feedback/Feedback';
 
-export { Navbar, Footer, OurServices, Carousel, Request, About, BeforeAfter };
+export { Navbar, Footer, OurServices, Carousel, Request, About, BeforeAfter, Feedback };

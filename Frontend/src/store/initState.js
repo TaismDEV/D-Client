@@ -1,72 +1,144 @@
 export const initState = {
+  
   products: [
     {
       id: 1,
-      name: 'Earthen Bottle',
-      href: '#',
-      price: '$48',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+      name: 'Elektrisch installatiewerk',
+      info: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      imageSrc: './elektro.jpg',
       imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
     },
     {
       id: 2,
-      name: 'Nomad Tumbler',
-      href: '#',
-      price: '$35',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+      name: 'Ontmanteling',
+      info: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      imageSrc: './Ontmanteling.jpeg',
       imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
     },
     {
       id: 3,
-      name: 'Focus Paper Refill',
-      href: '#',
-      price: '$89',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+      name: 'Loodgieterswerk',
+      info: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      imageSrc: './Loodgieterswerk.jpeg',
       imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
     },
     {
       id: 4,
-      name: 'Machined Mechanical Pencil',
-      href: '#',
-      price: '$35',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+      name: 'Metselwerk',
+      info: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      imageSrc: './Metselwerk.jpeg',
       imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
-
     },
     {
-      id: 5,
-      name: 'Earthen Bottle',
-      href: '#',
-      price: '$48',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+      id: 1,
+      name: 'Tegels leggen',
+      info: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      imageSrc: './Tegelsleggen.jpeg',
       imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
     },
     {
-      id: 6,
-      name: 'Nomad Tumbler',
-      href: '#',
-      price: '$35',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
+      id: 2,
+      name: 'Schilderwerken',
+      info: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      imageSrc: './Schilderwerken.jpeg',
       imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
     },
     {
-      id: 7,
-      name: 'Focus Paper Refill',
-      href: '#',
-      price: '$89',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
+      id: 3,
+      name: 'Parket leggen',
+      info: ' lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      imageSrc: './Parketleggen.jpeg',
       imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
     },
     {
-      id: 8,
-      name: 'Machined Mechanical Pencil',
-      href: '#',
-      price: '$35',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
+      id: 4,
+      name: 'Installatie van de deur',
+      info: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      imageSrc: './InstallatieVanDeDeur.jpeg',
       imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     }
   ],
+
   admin: {
     
+  },
+
+  slides: [
+    {
+      id: 1,
+      title: 'Slide 1',
+      src: 'http://localhost:3000/3.jpg',
+    },
+    {
+      id: 2,
+      title: 'Slide 2',
+      src: 'http://localhost:3000/2.jpg',
+    },
+    {
+      id: 3,
+      title: 'Slide 3',
+      src: 'http://localhost:3000/6.jpg',
+    },
+  ],
+
+  contentBeforeAfter: [
+    [
+      {
+        id: 1,
+        title: 'Slide 1',
+        src: 'http://localhost:3000/3.jpg',
+      },
+      {
+        id: 2,
+        title: 'Slide 2',
+        src: 'http://localhost:3000/2.jpg',
+      },
+    ],
+    [
+      {
+        id: 1,
+        title: 'Slide 1',
+        src: 'http://localhost:3000/3.jpg',
+      },
+      {
+        id: 2,
+        title: 'Slide 2',
+        src: 'http://localhost:3000/2.jpg',
+      },
+    ],
+    [
+      {
+        id: 1,
+        title: 'Slide 1',
+        src: 'http://localhost:3000/3.jpg',
+      },
+      {
+        id: 2,
+        title: 'Slide 2',
+        src: 'http://localhost:3000/2.jpg',
+      },
+    ],
+    [
+      {
+        id: 1,
+        title: 'Slide 1',
+        src: 'http://localhost:3000/3.jpg',
+      },
+      {
+        id: 2,
+        title: 'Slide 2',
+        src: 'http://localhost:3000/2.jpg',
+      },
+    ],
+  ],
+
+  // about: [
+
+  // ],
+
+  consts: {
+    modal: false,
+    feedback: false,
   }
+
 }

@@ -1,21 +1,22 @@
 .carouselDiv {
   width: 90%;
-  height: 60vh;
+  height: 65vh;
   margin: 0 auto;
   margin-top: 5px;
   margin-bottom: 20px;
 }
 
-.beforeAfter {
+.beforeAfterIMG {
   width: 70vh;
-  height: 50vh;
+  height: 40vh;
   margin: 0 auto;
   margin-bottom: 10px;
-
+  /* border: 2px solid rgb(1, 1, 1); */
+  /* border-radius: 20px; */
 }
 
 .BeforeAfter {
-  width: 90%;
+  width: 85%;
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 10px;
