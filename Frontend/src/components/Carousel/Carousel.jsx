@@ -9,7 +9,7 @@ const Carousel = ({slides}) => {
     const interval = setInterval(() => {
       setCurrent(current === slides.length - 1 ? 0 : current + 1);
       // console.log(current);
-    }, 6000);
+    }, 4000);
     return () => clearInterval(interval);
   }, [current, slides.length]);
 

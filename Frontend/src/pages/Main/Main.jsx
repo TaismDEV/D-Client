@@ -21,7 +21,7 @@ const Main = () => {
           </Routes>
       </div>
 
-      <div className="footer">
+      <div className="footer ">
             <Footer />
       </div>
     </>
