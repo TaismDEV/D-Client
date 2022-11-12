@@ -19,7 +19,7 @@ const Home = () => {
 
       <OurServices />
 
-      <p className="text-center py-16 text-6xl text-indigo-900"> Foto's van ons werk </p>
+      <p id="fotosVanJob" className="text-center py-16 text-6xl text-indigo-900"> Foto's van ons werk </p>
 
       <div className={styles.beforeAfterContent}>
         <div className={styles.BeforeAfter}>
