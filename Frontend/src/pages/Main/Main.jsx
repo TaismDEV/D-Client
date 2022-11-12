@@ -22,7 +22,7 @@ const Main = () => {
             <Route path="/ingconstructie-registration" element={<Registration />} />
             <Route path="/login" element={<Login />} />
             <Route path="/request" element={<Request />} />
-            <Route path="/beforeAfter" element={<BeforeAfter />} />
+            {/* <Route path="/beforeAfter" element={<BeforeAfter />} /> */}
           </Routes>
       </div>
 

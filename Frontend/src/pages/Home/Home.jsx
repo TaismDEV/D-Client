@@ -19,7 +19,7 @@ const Home = () => {
 
       <OurServices />
 
-      <p id="fotosVanJob" className="text-center py-16 text-6xl text-indigo-900"> Foto's van ons werk </p>
+      <p id={"fotosVanJob"} className="text-center py-16 text-6xl text-indigo-900"> Foto's van ons werk </p>
 
       <div className={styles.beforeAfterContent}>
         <div className={styles.BeforeAfter}>
@@ -27,11 +27,12 @@ const Home = () => {
             <div key={content.id} className={styles.beforeAfterIMG}>
               <BeforeAfter content={content} />
             </div>
-          ))};
+          ))}
         </div>
       </div>
 
       <p className="text-center py-10 text-3xl text-indigo-900"> <a href="#top"> Druk om naar de top te gaan </a>  </p>
+      {console.log('render')}
 
       </>
   );
