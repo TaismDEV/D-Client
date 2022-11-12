@@ -239,7 +239,7 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="mt-6">
-                <nav className="grid gap-y-8">
+                <nav  className="grid gap-y-8">
 
                     <Link onClick={() => handFeedback()} to="/" className="-m-3 flex items-center rounded-md p-3 hover:bg-gray-50">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-indigo-500">
