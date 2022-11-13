@@ -3,6 +3,7 @@ require('@babel/register');
 
 // const path = require('path');
 // const cors = require('cors');
+
 const express = require('express');
 const morgan = require('morgan');
 const session = require('express-session');
@@ -34,7 +35,7 @@ const sessionConfig = {
 
 app.use(session(sessionConfig));
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('<h1>server voor <br> <br> ING CONSTRUCTIE </h1> <br> 2022');
 });
 
 app.listen(PORT, async () => {
