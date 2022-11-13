@@ -26,7 +26,7 @@ const Carousel = () => {
   }
 
   return (
-    <div className={styles.divImg}>
+    <div   className={styles.divImg}>
       <div className={styles.rightArrow} onClick={goToNext}>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="w-10 h-10">
   <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />

@@ -9,6 +9,9 @@ const Home = () => {
   
   return (
       <> 
+
+      <p id="top" className={styles.p}></p>
+
       <div className={styles.carouselDiv}>
         <Carousel />
       </div>
@@ -18,8 +21,8 @@ const Home = () => {
       <p className="text-center py-16 text-6xl text-indigo-900"> Ons bedrijf levert allerlei diensten met betrekking tot reparatie en constructie </p>
 
       <OurServices />
-
-      <p id={"fotosVanJob"} className="text-center py-16 text-6xl text-indigo-900"> Foto's van ons werk </p>
+      <p id="fotosVanJob" className="w-full h-12 EL FOR YAKOR"></p>
+      <p className="text-center py-10 text-6xl text-indigo-900"> Foto's van ons werk </p>
 
       <div className={styles.beforeAfterContent}>
         <div className={styles.BeforeAfter}>

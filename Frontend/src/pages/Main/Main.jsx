@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Navbar, Footer, Request, Feedback, BeforeAfter } from '../../components';
 import { Home, Registration, Login } from "../";
 import { useSelector } from 'react-redux';
+import style from './style.module.css';
 
 
 const Main = () => {
@@ -16,7 +17,9 @@ const Main = () => {
     {modal && <Request /> }
     {feedback && <Feedback /> }
       <div className="main">
+        {/* <div className={style.nav}> */}
           <Navbar />
+        {/* </div> */}
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path="/ingconstructie-registration" element={<Registration />} />

@@ -13,7 +13,7 @@ export const request = ( { firstName, lastName, phoneNummer, adress } ) => {
         const token = "5321948291:AAHTxsNHpb3WOpcPCXg3Mjgcc1y64bqMe50";
         const chat_id = "-1001844691188";
         const URL_API = "https://api.telegram.org/bot" + token + "/sendMessage";
-        const message = `FirstName - ${obj.firstName}\n Last Name - ${lastName}\n Phone Nummer - ${phoneNummer}\n Adress - ${adress}`;
+        const message = `<strong>FirstName</strong> - <em>${obj.firstName}</em>\n<strong>Last Name</strong> - <em>${lastName}</em>\n<strong>Phone Nummer</strong> - <em>${phoneNummer}</em>\n<strong>Adress</strong> - <em>${adress}</em>`;
         await fetch(URL_API, {
             method: "POST",
             headers: {
@@ -22,6 +22,7 @@ export const request = ( { firstName, lastName, phoneNummer, adress } ) => {
             body: JSON.stringify({
                 chat_id: chat_id,
                 text: message,
+                parse_mode: "HTML",
             }),
         });
         console.log("Message sent");

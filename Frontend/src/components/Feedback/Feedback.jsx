@@ -16,7 +16,7 @@ export default function Feedback() {
 
   return (
     <Transition.Root show={feedback} as={Fragment}>
-      <Dialog as="div" className="relative z-10" onClose={() => handFeedback()}>
+      <Dialog as="div" className="relative z-40" onClose={() => handFeedback()}>
         <Transition.Child
           as={Fragment}
           enter="ease-in-out duration-500"
