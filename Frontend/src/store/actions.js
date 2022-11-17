@@ -10,8 +10,8 @@ export const request = ( { firstName, lastName, phoneNummer, adress } ) => {
   return async (dispatch) => {
     try {
         const obj = { firstName, lastName, phoneNummer, adress };
-        const token = "5321948291:AAHTxsNHpb3WOpcPCXg3Mjgcc1y64bqMe50";
-        const chat_id = "-1001844691188";
+        const token = process.env.REACT_APP_TOKEN;
+        const chat_id = process.env.REACT_APP_CHAT_ID;
         const URL_API = "https://api.telegram.org/bot" + token + "/sendMessage";
         const message = `<strong>FirstName</strong> - <em>${obj.firstName}</em>\n<strong>Last Name</strong> - <em>${lastName}</em>\n<strong>Phone Nummer</strong> - <em>${phoneNummer}</em>\n<strong>Adress</strong> - <em>${adress}</em>`;
         await fetch(URL_API, {
