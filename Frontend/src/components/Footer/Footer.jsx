@@ -24,7 +24,7 @@ export default function Footer() {
                         <span>taismdg@icloud.com</span>
                     </li>
                     <li className="mb-4">
-                        <span>Vlaams Gewest</span>
+                        <span>Vlaanderen</span>
                     </li>
                 </ul>
             </div>
@@ -39,7 +39,7 @@ export default function Footer() {
                         <Link to="/" className="hover:underline">Facebook</Link>
                     </li>
                     <li className="mb-4">
-                        <Link onClick={() => handModal()} to="/" className="hover:underline">Bestel een telefoontje van ons</Link>
+                        <Link onClick={() => handModal()} to="/" className="hover:underline">Contact</Link>
                     </li>
                 </ul>
             </div>

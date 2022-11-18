@@ -31,7 +31,7 @@ export const initState = {
     },
     {
       id: 1,
-      name: 'Tegels leggen',
+      name: 'Tegels plaatsen',
       info: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       imageSrc: './Tegelsleggen.jpeg',
       imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
@@ -52,7 +52,7 @@ export const initState = {
     },
     {
       id: 4,
-      name: 'Installatie van de deur',
+      name: 'Installatie van deuren',
       info: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       imageSrc: './InstallatieVanDeDeur.jpeg',
       imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',

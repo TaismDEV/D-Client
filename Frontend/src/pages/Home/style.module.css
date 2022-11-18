@@ -7,8 +7,8 @@
 }
 
 .beforeAfterIMG {
-  width: 50vh;
-  height: 30vh;
+  width: 60vh;
+  height: 40vh;
   margin: 0 auto;
   margin-bottom: 10px;
   /* border: 2px solid rgb(1, 1, 1); */
@@ -16,7 +16,7 @@
 }
 
 .BeforeAfter {
-  width: 105vh;
+  width: 125vh;
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 10px;

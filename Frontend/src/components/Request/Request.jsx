@@ -34,8 +34,8 @@ const Request = () => {
       <div className="md:grid md:grid-cols-3 md:gap-6">
         <div className="md:col-span-1 ">
           <div className="px-4 sm:px-0">
-            <h3 className="text-lg font-medium leading-6 text-white">Juiste gegevens invoeren. </h3>
-            <p className="mt-1 text-sm text-white">Gebruik het adres van het object <br /> waar het werk moet worden gedaan. <br /> Onze medewerker neemt contact met u  op <br /> op het opgegeven telefoonnummer</p>
+            <h3 className="text-lg font-medium leading-6 text-white"> Laat uw contactgegevens achter. </h3>
+            <p className="mt-1 text-sm text-white">  Onze medewerker neemt contact met u  op.</p>
           </div>
         </div>
         <div className="mt-5 md:col-span-2 md:mt-0">
@@ -45,7 +45,7 @@ const Request = () => {
                 <div className="grid grid-cols-6 gap-6">
                   <div className="col-span-6 sm:col-span-3">
                     <label htmlFor="firstName" className="block text-sm font-medium text-gray-700">
-                      First name
+                      Voornaam
                     </label>
                     <input
                       onChange={(e) => setFirstName(e.target.value)}
@@ -59,7 +59,7 @@ const Request = () => {
 
                   <div className="col-span-6 sm:col-span-3">
                     <label htmlFor="lastName" className="block text-sm font-medium text-gray-700">
-                      Last name
+                      Achternaam
                     </label>
                     <input
                       onChange={(e) => setLastName(e.target.value)}
@@ -73,7 +73,7 @@ const Request = () => {
 
                   <div className="col-span-6 sm:col-span-4">
                     <label htmlFor="phoneNumber" className="block text-sm font-medium text-gray-700">
-                      Uw Telefoonnummer
+                      GSM-nummer of telefoonnummer
                     </label>
                     <input
                       onChange={(e) => setPhoneNummer(e.target.value)}
@@ -86,7 +86,7 @@ const Request = () => {
                   </div>
                   <div className="col-span-6">
                     <label htmlFor="adress" className="block text-sm font-medium text-gray-700">
-                      Stad, Straat en Huisnummer
+                      Adres van de werkplaats (stad, straat en huisnummer)
                     </label>
                     <input
                       onChange={(e) => setAdress(e.target.value)}

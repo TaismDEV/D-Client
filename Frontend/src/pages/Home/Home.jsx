@@ -18,11 +18,11 @@ const Home = () => {
 
       <About />
 
-      <p className="text-center py-16 text-6xl text-indigo-900"> Ons bedrijf levert allerlei diensten met betrekking tot reparatie en constructie </p>
+      <p className="text-center py-16 text-4xl text-indigo-900"> Wij zijn gespecialiseerd in alle soorten bouw- en renovatiewerken. <br /> U kunt ook bij ons terecht voor het plaatsen van tegels.</p>
 
       <OurServices />
       <p id="fotosVanJob" className="w-full h-12 EL FOR YAKOR"></p>
-      <p className="text-center py-10 text-6xl text-indigo-900"> Foto's van ons werk </p>
+      <p className="text-center py-10 text-6xl text-indigo-900"> VOOR-EN-NA-FOTO'S </p>
 
       <div className={styles.beforeAfterContent}>
         <div className={styles.BeforeAfter}>
@@ -34,7 +34,7 @@ const Home = () => {
         </div>
       </div>
 
-      <p className="text-center py-10 text-3xl text-indigo-900"> <a href="#top"> Druk om naar de top te gaan </a>  </p>
+      <p className="text-center py-10 text-2xl text-indigo-900"> <a href="#top"> Druk om naar boven te gaan </a>  </p>
       {console.log('render')}
 
       </>

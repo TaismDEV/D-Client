@@ -23,7 +23,7 @@ const About = () => {
             Wij zijn <span className='text-indigo-900'>ING CONSTRUCTION</span>
             </h1>
             <p className="mt-4 text-xl text-gray-500">
-            Wij doen al 10 jaar bouw en renovatiewerkzaamheden, hebben in die tijd kunnen bewijzen dat onze diensten een kwaliteitsgarantie hebben. <br /> Contacteer ons - <Link to="" onClick={() => handFeedback()} className='text-blue-600 text-2xl'>Contacten</Link> <br /> Of doe een aanvraag en wij nemen contact met u op.
+            Al 10 jaar lang zijn wij een competitieve en kwaliteitsvolle speler in de bouw- en renovatiemarkt. <br /><Link to="" onClick={() => handFeedback()} className='text-blue-600 '>  Contacteer ons </Link> of doe een aanvraag en wij nemen zelf zo snel mogelijk contact met u op.
             </p>
           </div>
           <div>
@@ -94,7 +94,7 @@ const About = () => {
               </div>
 
               <Link onClick={() => handModal()} to="/" className="inline-block rounded-md border border-transparent bg-indigo-800 py-3 px-8 text-center font-medium text-white hover:bg-indigo-700">
-                Een verzoek doen
+              Aanvraag indienen
               </Link>
             </div>
           </div>
