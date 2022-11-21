@@ -67,17 +67,17 @@ export const initState = {
     {
       id: 1,
       title: 'Slide 1',
-      src: 'http://localhost:3000/elektro.jpg',
+      src: 'http://localhost:3000/3.jpg',
     },
     {
       id: 2,
       title: 'Slide 2',
-      src: 'http://localhost:3000/Tegelsleggen.jpeg',
+      src: 'http://localhost:3000/2.jpg',
     },
     {
       id: 3,
       title: 'Slide 3',
-      src: 'http://localhost:3000/Ontmanteling.jpeg',
+      src: 'http://localhost:3000/6.jpg',
     },
   ],
 
