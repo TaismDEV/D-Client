@@ -67,17 +67,17 @@ export const initState = {
     {
       id: 1,
       title: 'Slide 1',
-      src: 'http://localhost:3000/3.jpg',
+      src: './3.jpg',
     },
     {
       id: 2,
       title: 'Slide 2',
-      src: 'http://localhost:3000/2.jpg',
+      src: './2.jpg',
     },
     {
       id: 3,
       title: 'Slide 3',
-      src: 'http://localhost:3000/6.jpg',
+      src: './6.jpg',
     },
   ],
 
@@ -86,54 +86,55 @@ export const initState = {
       {
         id: 1,
         title: 'Slide 1',
-        src: 'http://localhost:3000/3.jpg',
+        src: './3.jpg',
       },
       {
         id: 2,
         title: 'Slide 2',
-        src: 'http://localhost:3000/2.jpg',
+        src: './2.jpg',
       },
     ],
     [
       {
         id: 1,
         title: 'Slide 1',
-        src: 'http://localhost:3000/3.jpg',
+        src: './3.jpg',
       },
       {
         id: 2,
         title: 'Slide 2',
-        src: 'http://localhost:3000/2.jpg',
+        src: './2.jpg',
       },
     ],
     [
       {
         id: 1,
         title: 'Slide 1',
-        src: 'http://localhost:3000/3.jpg',
+        src: './3.jpg',
       },
       {
         id: 2,
         title: 'Slide 2',
-        src: 'http://localhost:3000/2.jpg',
+        src: './2.jpg',
       },
     ],
     [
       {
         id: 1,
         title: 'Slide 1',
-        src: 'http://localhost:3000/3.jpg',
+        src: './3.jpg',
       },
       {
         id: 2,
         title: 'Slide 2',
-        src: 'http://localhost:3000/2.jpg',
+        src: './2.jpg',
       },
     ],
   ],
-
+  
   // about: [
-
+    
+    // src: 'http://localhost:3000/2.jpg',
   // ],
 
   consts: {
