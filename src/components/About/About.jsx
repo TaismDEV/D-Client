@@ -20,7 +20,7 @@ const About = () => {
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <div className="sm:max-w-lg">
             <h1 className="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            Wij zijn <span className='text-indigo-900'>ING CONSTRUCTION</span>
+            Wij zijn <span className='text-indigo-900'>DAKHKO</span>
             </h1>
             <p className="mt-4 text-xl text-gray-500">
             Al 10 jaar lang zijn wij een competitieve en kwaliteitsvolle speler in de bouw- en renovatiemarkt. <br /><Link to="" onClick={() => handFeedback()} className='text-blue-600 '>  Contacteer ons </Link> of doe een aanvraag en wij nemen zelf zo snel mogelijk contact met u op.

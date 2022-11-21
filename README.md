@@ -71,11 +71,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-
+<!-- 
   "scripts": {
     "dev": "react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
+  }, -->

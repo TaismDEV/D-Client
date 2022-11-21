@@ -74,7 +74,7 @@ export default function Feedback() {
                       <hr />
                       <p className='text-2xl text-gray-700'> <span className='text-green-700'>Email:</span>  taismdg@icloud.com</p>
                       <hr />
-                      <p className='text-2xl text-gray-700'> <span className='text-green-700'> Phone: </span>  1-800-555-5555</p>
+                      <p className='text-2xl text-gray-700'> <span className='text-green-700'> Phone: </span>+32 484 50 85 04</p>
                       <hr />
                       <br />
                       <p className='text-center py-10 text-indigo-800 text-4xl'>Sociale media</p>
