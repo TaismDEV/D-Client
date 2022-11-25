@@ -67,17 +67,17 @@ export const initState = {
     {
       id: 1,
       title: 'Slide 3',
-      src: './6.jpg',
+      src: './new.jpeg',
     },
     {
       id: 2,
       title: 'Slide 2',
-      src: './7.jpg',
+      src: './6.jpg',
     },
     {
       id: 3,
       title: 'Slide 3',
-      src: './2.jpg',
+      src: './7.jpg',
     },
   ],
 
