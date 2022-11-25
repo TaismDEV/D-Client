@@ -62,22 +62,22 @@ export const initState = {
   admin: {
     
   },
-
+  
   slides: [
     {
       id: 1,
-      title: 'Slide 1',
-      src: './3.jpg',
+      title: 'Slide 3',
+      src: './6.jpg',
     },
     {
       id: 2,
       title: 'Slide 2',
-      src: './2.jpg',
+      src: './7.jpg',
     },
     {
       id: 3,
       title: 'Slide 3',
-      src: './6.jpg',
+      src: './2.jpg',
     },
   ],
 
@@ -86,48 +86,48 @@ export const initState = {
       {
         id: 1,
         title: 'Slide 1',
-        src: './3.jpg',
+        src: './beforeAfter/after1.jpeg',
       },
       {
         id: 2,
         title: 'Slide 2',
-        src: './2.jpg',
+        src: './beforeAfter/before1.jpeg',
       },
     ],
     [
       {
         id: 1,
         title: 'Slide 1',
-        src: './3.jpg',
+        src: './beforeAfter/after2.jpeg',
       },
       {
         id: 2,
         title: 'Slide 2',
-        src: './2.jpg',
+        src: './beforeAfter/before2.jpeg',
       },
     ],
     [
       {
         id: 1,
         title: 'Slide 1',
-        src: './3.jpg',
+        src: './beforeAfter/after3.jpeg',
       },
       {
         id: 2,
         title: 'Slide 2',
-        src: './2.jpg',
+        src: './beforeAfter/before3.jpeg',
       },
     ],
     [
       {
         id: 1,
         title: 'Slide 1',
-        src: './3.jpg',
+        src: './beforeAfter/after4.jpeg',
       },
       {
         id: 2,
         title: 'Slide 2',
-        src: './2.jpg',
+        src: './beforeAfter/before4.jpeg',
       },
     ],
   ],
