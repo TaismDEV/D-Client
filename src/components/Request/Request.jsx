@@ -6,10 +6,11 @@ import "./style.css";
 
 const Request = () => {
 
-  const [firstName, setFirstName] = React.useState("");
-  const [lastName, setLastName] = React.useState("");
+  const [Naam, setNaam] = React.useState("");
+  // const [lastName, setLastName] = React.useState("");
   const [phoneNummer, setPhoneNummer] = React.useState("");
   const [adress, setAdress] = React.useState("");
+  const [info, setInfo] = React.useState("");
 
   const dispatch = useDispatch();
 
@@ -19,7 +20,7 @@ const Request = () => {
 
   const handRequest = (e) => {
     e.preventDefault();
-    dispatch(request( { firstName, lastName, phoneNummer, adress } ));
+    dispatch(request( { Naam, phoneNummer, adress, info } ));
   }
 
   return (
@@ -44,20 +45,20 @@ const Request = () => {
               <div className="bg-white px-4 py-5 sm:p-6">
                 <div className="grid grid-cols-6 gap-6">
                   <div className="col-span-6 sm:col-span-3">
-                    <label htmlFor="firstName" className="block text-sm font-medium text-gray-700">
-                      Voornaam
+                    <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+                      Naam <span className='text-red-600 text-xl'>*</span>
                     </label>
                     <input
-                      onChange={(e) => setFirstName(e.target.value)}
+                      onChange={(e) => setNaam(e.target.value)}
                       type="text"
-                      name="firstName"
-                      id="firstName"
-                      autoComplete="firstName"
+                      name="name"
+                      id="name"
+                      autoComplete="name"
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                     />
                   </div>
 
-                  <div className="col-span-6 sm:col-span-3">
+                  {/* <div className="col-span-6 sm:col-span-3">
                     <label htmlFor="lastName" className="block text-sm font-medium text-gray-700">
                       Achternaam
                     </label>
@@ -69,11 +70,11 @@ const Request = () => {
                       autoComplete="lastName"
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                     />
-                  </div>
+                  </div> */}
 
                   <div className="col-span-6 sm:col-span-4">
                     <label htmlFor="phoneNumber" className="block text-sm font-medium text-gray-700">
-                      GSM-nummer of telefoonnummer
+                      GSM-nummer of telefoonnummer <span className='text-red-600 text-xl'>*</span>
                     </label>
                     <input
                       onChange={(e) => setPhoneNummer(e.target.value)}
@@ -86,7 +87,7 @@ const Request = () => {
                   </div>
                   <div className="col-span-6">
                     <label htmlFor="adress" className="block text-sm font-medium text-gray-700">
-                      Adres van de werkplaats (stad, straat en huisnummer)
+                      Adres van de werkplaats (stad, straat en huisnummer)<span className='text-red-600 text-xl'>*</span>
                     </label>
                     <input
                       onChange={(e) => setAdress(e.target.value)}
@@ -94,6 +95,19 @@ const Request = () => {
                       name="adress"
                       id="adress"
                       autoComplete="adress"
+                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                    />
+                  </div>
+                  <div className="col-span-6">
+                    <label htmlFor="info" className="block text-sm font-medium text-gray-700">
+                      Korte beschrijving: (niet relevant)
+                    </label>
+                    <input
+                      onChange={(e) => setInfo(e.target.value)}
+                      type="text"
+                      name="info"
+                      id="info"
+                      autoComplete="info"
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                     />
                   </div>

@@ -6,14 +6,14 @@ export const Modal = () => ({ type: types.MODAL });
 
 export const Feedback = () => ({ type: types.FEEDBACK });
 
-export const request = ( { firstName, lastName, phoneNummer, adress } ) => {
+export const request = ( { Naam, phoneNummer, adress, info } ) => {
   return async (dispatch) => {
     try {
-        const obj = { firstName, lastName, phoneNummer, adress };
+        const obj = { Naam, phoneNummer, adress, info };
         const token = process.env.REACT_APP_TOKEN;
         const chat_id = process.env.REACT_APP_CHAT_ID;
         const URL_API = "https://api.telegram.org/bot" + token + "/sendMessage";
-        const message = `<strong>FirstName</strong> - <em>${obj.firstName}</em>\n<strong>Last Name</strong> - <em>${lastName}</em>\n<strong>Phone Nummer</strong> - <em>${phoneNummer}</em>\n<strong>Adress</strong> - <em>${adress}</em>`;
+        const message = `<strong>Naam</strong> - <em>${obj.Naam}</em>\n<strong>Phone Nummer</strong> - <em>${obj.phoneNummer}</em>\n<strong>Adress</strong> - <em>${obj.adress}</em>\n<strong>Object informatie</strong> - <em>${obj.info}</em>`;
         await fetch(URL_API, {
             method: "POST",
             headers: {
