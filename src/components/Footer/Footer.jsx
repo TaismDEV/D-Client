@@ -21,7 +21,7 @@ export default function Footer() {
                     </li>
               
                     <li className="mb-4">
-                        <span>taismdg@icloud.com</span>
+                        <span>dahko.bouw@gmail.com</span>
                     </li>
                     <li className="mb-4">
                         <span>Vlaanderen</span>
@@ -33,7 +33,7 @@ export default function Footer() {
                 <ul className="text-gray-500 dark:text-gray-400 text-center">
                   
                     <li className="mb-4">
-                        <Link to="/" className="hover:underline">Instagram</Link>
+                        <a href="https://instagram.com/rabota_v_belgie?igshid=YmMyMTA2M2Y=" rel="noreferrer" target="_blank" className="hover:underline">Instagram</a>
                     </li>
                     <li className="mb-4">
                         <Link to="/" className="hover:underline">Facebook</Link>
