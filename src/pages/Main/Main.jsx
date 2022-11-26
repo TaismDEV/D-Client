@@ -3,8 +3,6 @@ import { Route, Routes } from 'react-router-dom';
 import { Navbar, Footer, Request, Feedback } from '../../components';
 import { Home, Registration, Login } from "../";
 import { useSelector } from 'react-redux';
-// import style from './style.module.css';
-
 
 const Main = () => {
 

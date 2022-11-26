@@ -35,7 +35,6 @@ const Home = () => {
       </div>
 
       <p className="text-center py-10 text-2xl text-indigo-900"> <a href="#top"> Druk om naar boven te gaan </a>  </p>
-      {console.log('render')}
 
       </>
   );

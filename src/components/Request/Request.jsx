@@ -7,7 +7,6 @@ import "./style.css";
 const Request = () => {
 
   const [Naam, setNaam] = React.useState("");
-  // const [lastName, setLastName] = React.useState("");
   const [phoneNummer, setPhoneNummer] = React.useState("");
   const [adress, setAdress] = React.useState("");
   const [info, setInfo] = React.useState("");
@@ -57,21 +56,6 @@ const Request = () => {
                       className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                     />
                   </div>
-
-                  {/* <div className="col-span-6 sm:col-span-3">
-                    <label htmlFor="lastName" className="block text-sm font-medium text-gray-700">
-                      Achternaam
-                    </label>
-                    <input
-                      onChange={(e) => setLastName(e.target.value)}
-                      type="text"
-                      name="lastName"
-                      id="lastName"
-                      autoComplete="lastName"
-                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    />
-                  </div> */}
-
                   <div className="col-span-6 ">
                     <label htmlFor="phoneNumber" className="block text-sm font-medium text-gray-700">
                       GSM-nummer of telefoonnummer <span className='text-red-600 text-xl'>*</span>

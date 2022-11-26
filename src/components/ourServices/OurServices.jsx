@@ -19,8 +19,7 @@ const OurServices = () => {
                   className="h-full w-full object-cover object-center "
                 />
               </div>
-              <p className="mt-1 text-2xl font-medium text-teal-600">{service.name}</p>
-              {/* <h3 className="text-sm text-gray-500">{service.info}</h3> */}
+              <p className="mt-1 text-center text-2xl font-medium text-blue-800">{service.name}</p>
             </div>
           ))}
         </div>

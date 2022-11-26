@@ -64,7 +64,6 @@ export default function Feedback() {
                   </Transition.Child>
                   <div className="flex h-full flex-col overflow-y-scroll bg-white py-6 shadow-xl">
                     <div className="px-4 sm:px-6">
-                      {/* <Dialog.Title className="text-4xl font-medium  text-indigo-800">Contacteer ons</Dialog.Title> */}
                     </div>
                     <div className="relative mt-6 flex-1 px-4 sm:px-6">
 
@@ -80,7 +79,7 @@ export default function Feedback() {
                       <p className='text-center py-10 text-indigo-800 text-4xl'>Sociale media</p>
                     
                       <div className="flex mt-4 space-x-6 justify-center md:mt-0">
-            <a href="#" target="_blank" rel="noreferrer"  className="text-blue-800 hover:text-blue-500 dark:hover:text-white">
+            <a href="https://instagram.com/rabota_v_belgie?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer"  className="text-blue-800 hover:text-blue-500 dark:hover:text-white">
                 <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path></svg>
                 <span className="sr-only">Facebook page</span>
             </a>
