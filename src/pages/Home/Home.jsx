@@ -1,16 +1,16 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { OurServices, Carousel, About, BeforeAfter } from "../../components";
+import { OurServices, Carousel, About, BeforeAfter, ScrollToTop } from "../../components";
 import styles from './style.module.css'
 
 const Home = () => {
   
   const contentBeforeAfter = useSelector(state => state.content.contentBeforeAfter);
-  
+
   return (
       <> 
 
-      <p id="top" className={styles.p}></p>
+      <p className={styles.p}></p>
 
       <div className={styles.carouselDiv}>
         <Carousel />
@@ -33,9 +33,9 @@ const Home = () => {
           ))}
         </div>
       </div>
-
-      <p className="text-center py-10 text-2xl text-indigo-900"> <a href="#top"> Druk om naar boven te gaan </a>  </p>
-
+      <div className="flex justify-center ">
+      <button onClick={ScrollToTop} className="inline-block bg-indigo-900 border rounded-3xl py-3 px-8 font-medium text-center border-transparent text-white m-4   hover:bg-indigo-700  ">  Druk om naar boven te gaan  </button>
+      </div>
       </>
   );
 };  
