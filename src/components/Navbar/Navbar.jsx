@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link to="/">
               <span className="sr-only">DAHKO</span>
-            <h4 className="text-blue-900 text-4xl truncate ">DAHKO</h4>
+            <h4 className="text-blue-900 text-4xl truncate font-bold">DAHKO</h4>
             </Link>
           </div>
           <div className="hidden items-center  md:flex md:flex-1 lg:w-0">
