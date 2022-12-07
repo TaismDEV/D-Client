@@ -8,6 +8,7 @@ export const Feedback = () => ({ type: types.FEEDBACK });
 
 export const request = ( { Naam, phoneNummer, adress, info } ) => {
   return async (dispatch) => {
+    if (Naam !== "" && phoneNummer !== "" && adress !== "") {
     try {
         const obj = { Naam, phoneNummer, adress, info };
         const token = process.env.REACT_APP_TOKEN;
@@ -30,5 +31,8 @@ export const request = ( { Naam, phoneNummer, adress, info } ) => {
       } catch (err) {
         console.log('=========>>>>', err);
       }
+    } else {
+      alert("* verplicht veld")
+     }
   }
 };
